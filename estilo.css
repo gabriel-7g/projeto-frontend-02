@@ -20,15 +20,11 @@ body{
     padding: 0px;
 }
 
-#container{
-    background-color: var(--Preto100);
-}
-
 
 #header{
     background-image: url('./imagens/header.png');
     background-size: cover;
-    height: 900px;
+    height: 55vw;
     width: 100%;
     display: flex;
     align-items: center;
@@ -48,7 +44,7 @@ body{
     font-weight: 600px;
 }
 
-#btnc{
+.btnc{
     color: var(--Preto100);
     margin-top: 10px;
     display: flex;
@@ -74,8 +70,8 @@ body{
 }
 
 .icones{
-  height: 200px !important;
-  width: 200px !important;
+  height: 170px !important;
+  width: 170px !important;
   margin-top: 50px;
   margin-right: 20px;
 }
@@ -105,6 +101,63 @@ body{
     background-color: var(--Preto110);
 }
 
+.headers{
+    height: 320px;
+}
+
+
 #miriam img{
-    width: 10px;
+    width: 420px;
+    height: 420px;
+    border-radius: 200px;
+}
+
+#miriam{
+    background-color: var(--Preto90);
+    height: 750px;
+}
+
+#header6{
+    background-color: var(--Preto110);
+    border: solid var(--Preto110);
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 700px;
+}
+
+#txtfinal{
+    align-items: center;
+    width: 50%;
+    margin-left: 280px;
+    margin-top: 50px;
+}
+
+#txtfinal btnc{
+    border: solid red;
+}
+
+#header6 img{
+    width: 300px;
+    height: 590px;
+    margin-right: 400px;
+    margin-top: 40px;
+}
+
+#btnc{
+    width: 340px;
+    margin-top: 150px;
+}
+
+#copyright {
+    background-color: var(--Preto110);
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    color: var(--Branco);
+}
+
+a{
+    text-decoration: none;
+    color: var(--Branco);
 }
