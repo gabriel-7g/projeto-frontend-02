@@ -5,6 +5,7 @@
     --Branco: #ffffff;
     --Amareloouro: #FDC807;
     --Preto100: #000000;
+    --Preto110: #151515;
     --Preto90: #202226;
 }
 
@@ -60,14 +61,50 @@ body{
     font-size: 20px;
 }
 
-#header2{
-    color: var(--Branco);
-    height: 100px;
-    width: 100%;
+.secoes{
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-#icone1 {
+#header2{
+    color: var(--Branco);
+    display: flex;
+    background-color: var(--Preto90);
+}
+
+.icones{
+  height: 200px !important;
+  width: 200px !important;
+  margin-top: 50px;
+  margin-right: 20px;
+}
+
+.secoes h1{
+    margin-top: 30px;
+}
+
+.secoes h2{
+    font-size: 12px;
+}
+
+.textos{
+    width: 700px;
+    color: var(--Branco);
+}
+
+#header3{
+    background-color: var(--Preto110);
+}
+
+#header4{
+    background-color: var(--Preto90);
+}
+
+#header5{
+    background-color: var(--Preto110);
+}
+
+#miriam img{
     width: 10px;
-    height: auto;  
 }
